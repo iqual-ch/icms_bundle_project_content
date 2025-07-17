@@ -1,0 +1,5 @@
+name: 'ICMS Project  - Content Recipe'
+description: 'Provide default content for the ICMS Project.'
+type: 'Content'
+recipes:
+  - icms_base_content

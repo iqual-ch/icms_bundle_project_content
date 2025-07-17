@@ -1,0 +1,127 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8f3b2c7d-4e1a-4b6a-9c2e-7d5f1e3a9b8c
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: 'Referenz manueller Filter'
+  created:
+    -
+      value: 1750751476
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Referenz manueller Filter | ICMS'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Thema A, mit manuellem Filter gefilterten Teaser-Elementen'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/referenze/referenz-manueller-filter'
+  path:
+    -
+      alias: /referenze/referenz-manueller-filter
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Thema A, mit manuellem Filter gefilterten Teaser-Elementen.'
+      format: plain_text
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750751507
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 6361d5a2-8459-43ec-a7f9-a1619c443652
+          bundle: icms_layout_project
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750751976
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_listing_type:
+            -
+              value: manual
+          field_icms_pretitle:
+            -
+              value: 'Thema A'
+          field_icms_title:
+            -
+              value: 'Referenz mit manuellem Filter'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+          field_icms_topics:
+            -
+              entity: 73a2d543-f54a-4839-82e8-b47627635b66
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e

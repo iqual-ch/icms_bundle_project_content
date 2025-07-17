@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5e3b2d1a-9c4e-4f8b-8a7d-2c6e1f9d4b3a
+  bundle: icms_project
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+    f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+    b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: 'Referenz 3 Themen A/B/C'
+  created:
+    -
+      value: 1751724924
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Referenz 3 Themen A/B/C | ICMS'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Referenz 3 zu den Themen A, B und C'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/referenz/referenz-3-themen-abc'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'http://default/sites/default/files/styles/icms_og_image/public/media/images/Placeholder-iqual-CMS.png?h=a92f03cd&itok=ehHq-8F3'
+  path:
+    -
+      alias: /referenz/referenz-3-themen-abc
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Referenz 3 zu den Themen A, B und C'
+      format: plain_text
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1751724995
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Referenz
+  field_icms_teaser_title:
+    -
+      value: 'Referenz zu den Themen A, B und C'
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66
+    -
+      entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808
+    -
+      entity: b64307f3-9232-4837-a09d-dcfd877ad189

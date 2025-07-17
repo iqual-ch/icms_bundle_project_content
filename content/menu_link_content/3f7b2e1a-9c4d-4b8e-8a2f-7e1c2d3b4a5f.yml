@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 3f7b2e1a-9c4d-4b8e-8a2f-7e1c2d3b4a5f
+  bundle: main
+  default_langcode: de
+  depends:
+    2b1a4e5c-8d3f-4c2e-9b7a-1f6e3d2c4b5a: menu_link_content
+    3b7e2c1a-9f4b-4e3d-8c2a-7d6e5f4b3a2c: node
+    d99e7252-4555-4701-a788-25befa086176: user
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Referenz Kontextfilter'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 3b7e2c1a-9f4b-4e3d-8c2a-7d6e5f4b3a2c
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:2b1a4e5c-8d3f-4c2e-9b7a-1f6e3d2c4b5a'
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de'
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1750751431

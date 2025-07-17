@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 2b1a4e5c-8d3f-4c2e-9b7a-1f6e3d2c4b5a
+  bundle: main
+  default_langcode: de
+  depends:
+    2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d: node
+    d99e7252-4555-4701-a788-25befa086176: user
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Referenze
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 50
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de'
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1750400351

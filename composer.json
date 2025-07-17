@@ -1,0 +1,25 @@
+{
+    "name": "iqual/icms_bundle_project_content",
+    "type": "drupal-recipe",
+    "description": "Provide default content for the ICMS Project.",
+    "keywords": [
+        "ICMS",
+        "content",
+        "recipe",
+        "Drupal recipes",
+        "drupal recipe"
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://support-iqual.atlassian.net/wiki/spaces/LOMA/pages/4333404174/Verteilerseite+Projekte",
+        "source": "https://github.com/iqual-ch/blokkli-starterkit-sw-experiment"
+    },
+    "require": {
+        "iqual/icms_bundle_project": "^1.0",
+        "iqual/icms_base_content": "^1.0"
+    },
+    "version": "1.x-dev"
+}
