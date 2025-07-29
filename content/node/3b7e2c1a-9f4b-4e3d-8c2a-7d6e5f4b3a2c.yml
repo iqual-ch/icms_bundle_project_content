@@ -82,7 +82,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: c5b97291-0835-4495-b49a-5b6e9f4abe02
+          uuid: 7e2f3c4b-1a5d-4e6f-9b8c-2d3e4f5a6b7c
           bundle: icms_layout_project
           default_langcode: de
         default:

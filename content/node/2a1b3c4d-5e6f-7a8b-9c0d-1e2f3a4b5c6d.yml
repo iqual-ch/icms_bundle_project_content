@@ -74,7 +74,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: f49095e3-3726-4ed3-921d-b99a53fa601a
+          uuid: 7e2b1c8a-4d5f-4a6b-8c9d-2f3e4b5a6c7d
           bundle: icms_layout_project
           default_langcode: de
         default:
@@ -108,7 +108,7 @@ default:
               format: icms_basic
           field_icms_title:
             -
-              value: Pressmitteilungen
+              value: Referenzen
           field_icms_title_style:
             -
               value: heading-2
