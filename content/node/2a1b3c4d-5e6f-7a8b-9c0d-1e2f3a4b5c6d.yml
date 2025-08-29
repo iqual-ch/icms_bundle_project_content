@@ -22,7 +22,7 @@ default:
       entity: d99e7252-4555-4701-a788-25befa086176
   title:
     -
-      value: Referenze
+      value: Referenzen
   created:
     -
       value: 1750400309
@@ -43,15 +43,15 @@ default:
       tag: meta
       attributes:
         name: title
-        content: 'Referenze | ICMS'
+        content: 'Referenzen | ICMS'
     -
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/de/referenze'
+        href: 'http://default/de/referenzen'
   path:
     -
-      alias: /referenze
+      alias: /referenzen
       langcode: de
       pathauto: 1
   content_translation_source:
@@ -104,7 +104,7 @@ default:
               value: Übersicht
           field_icms_text:
             -
-              value: '<p>Die <strong>Referenzs-Übersicht-Seite</strong> listet sämtliche vorhandenen Referenze auf, ermöglicht eine Filterung nach Thema oder Taxonomie und verwendet eine frei definierbare Pagination mit zunächst zwölf Einträgen, wobei bei Bedarf automatisch weitere Beiträge nachgeladen werden. Oberhalb und unterhalb der Übersicht können zudem beliebige Layouts platziert werden, um etwa Einleitungen, Call-to-Actions oder ergänzende Inhalte flexibel zu integrieren.</p>'
+              value: '<p>Die <strong>Referenzs-Übersicht-Seite</strong> listet sämtliche vorhandenen Referenzen auf, ermöglicht eine Filterung nach Thema oder Taxonomie und verwendet eine frei definierbare Pagination mit zunächst zwölf Einträgen, wobei bei Bedarf automatisch weitere Beiträge nachgeladen werden. Oberhalb und unterhalb der Übersicht können zudem beliebige Layouts platziert werden, um etwa Einleitungen, Call-to-Actions oder ergänzende Inhalte flexibel zu integrieren.</p>'
               format: icms_basic
           field_icms_title:
             -
@@ -123,7 +123,7 @@ default:
       value: Übersicht
   field_icms_teaser_title:
     -
-      value: Referenze
+      value: Referenzen
   field_icms_topics:
     -
       entity: 73a2d543-f54a-4839-82e8-b47627635b66
