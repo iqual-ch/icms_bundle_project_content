@@ -14,7 +14,7 @@ default:
       value: true
   title:
     -
-      value: 'Referenz manueller Filter'
+      value: 'Referenzen manueller Filter'
   menu_name:
     -
       value: main

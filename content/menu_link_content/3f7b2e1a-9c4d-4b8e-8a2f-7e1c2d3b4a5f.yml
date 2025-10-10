@@ -14,7 +14,7 @@ default:
       value: true
   title:
     -
-      value: 'Referenz Kontextfilter'
+      value: 'Referenzen Kontextfilter'
   menu_name:
     -
       value: main

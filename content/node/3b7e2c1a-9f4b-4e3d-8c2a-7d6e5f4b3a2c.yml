@@ -20,7 +20,7 @@ default:
       entity: d99e7252-4555-4701-a788-25befa086176
   title:
     -
-      value: 'Referenz Kontextfilter'
+      value: 'Referenzen Kontextfilter'
   created:
     -
       value: 1750751392
@@ -41,7 +41,7 @@ default:
       tag: meta
       attributes:
         name: title
-        content: 'Referenz Kontextfilter | ICMS'
+        content: 'Referenzen Kontextfilter | ICMS'
     -
       tag: meta
       attributes:
@@ -51,10 +51,10 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/de/referenze/referenz-kontextfilter'
+        href: 'http://default/de/referenzen/referenz-kontextfilter'
   path:
     -
-      alias: /referenze/referenz-kontextfilter
+      alias: /referenzen/referenz-kontextfilter
       langcode: de
       pathauto: 1
   content_translation_source:
