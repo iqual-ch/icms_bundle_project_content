@@ -1,0 +1,693 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e5820000-0000-4000-8000-0000000a0006
+  bundle: icms_page
+  default_langcode: en
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    8a653cc6-f666-4cbb-99db-349cb90b9659: media
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+    f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Projects
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /projects
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Reference projects and case studies.'
+      format: plain_text
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1788181977
+      last_comment_name: ''
+      last_comment_uid: 2
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 6f2543ae-3e90-446c-9ad2-cebff7168c1a
+          bundle: icms_layout_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  width: medium
+                  spacingTop: large
+                  spacingBottom: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: 'ICMS Bundle'
+          field_icms_subtitle:
+            -
+              value: 'Reference projects and case studies.'
+          field_icms_text:
+            -
+              value: '<p>The Projects bundle presents reference projects with images and detailed content, filterable by topic.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Projects
+          field_icms_title_style:
+            -
+              value: heading-1
+          field_icms_title_weight:
+            -
+              value: h1
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'ICMS Bundle'
+            field_icms_subtitle:
+              -
+                value: 'Referenzprojekte und Fallstudien.'
+            field_icms_text:
+              -
+                value: '<p>Das Referenzen-Bundle präsentiert Referenzprojekte mit Bildern und ausführlichen Inhalten, filterbar nach Thema.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: Referenzen
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'ICMS Bundle'
+            field_icms_subtitle:
+              -
+                value: 'Projets de référence et études de cas.'
+            field_icms_text:
+              -
+                value: '<p>Le bundle Références présente des projets de référence avec images et contenus détaillés, filtrables par thème.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: Références
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'ICMS Bundle'
+            field_icms_subtitle:
+              -
+                value: 'Progetti di riferimento e casi di studio.'
+            field_icms_text:
+              -
+                value: '<p>Il bundle Referenze presenta progetti di riferimento con immagini e contenuti dettagliati, filtrabili per tema.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: Referenze
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7ed6c0e7-b183-4f6d-b0c7-1cd7f525bb6e
+          bundle: icms_layout_project
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingTop: large
+                  spacingBottom: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_listing_type:
+            -
+              value: all
+          field_icms_pretitle:
+            -
+              value: 'Listing · all'
+          field_icms_text:
+            -
+              value: '<p>Lorem sit adipiscing ornare posuere sociosqu mauris ipsum amet elit.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Overview of all entries'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · all'
+            field_icms_text:
+              -
+                value: '<p>Sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis iste accusantium.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Übersicht aller Einträge'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · all'
+            field_icms_text:
+              -
+                value: '<p>Vero odio blanditiis deleniti dolores excepturi provident accusamus dignissimos praesentium.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Aperçu de toutes les entrées'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · all'
+            field_icms_text:
+              -
+                value: '<p>Nemo voluptas fugit ratione neque dolorem eius enim aspernatur consequuntur.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Panoramica di tutte le voci'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 87e88c7e-7a2c-4f02-861a-c21766c35ae8
+          bundle: icms_layout_project
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: light
+                  spacingTop: large
+                  spacingBottom: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_listing_type:
+            -
+              value: contextual
+          field_icms_pretitle:
+            -
+              value: 'Listing · contextual'
+          field_icms_text:
+            -
+              value: '<p>Elit potenti tortor porttitor montes dolor consectetur mollis dignissim cubilia.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Contextual by page topics (Thema A)'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · contextual'
+            field_icms_text:
+              -
+                value: '<p>Accusantium totam quae architecto dicta unde natus doloremque aperiam inventore.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Kontextuell nach Seitenthemen (Thema A)'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · contextual'
+            field_icms_text:
+              -
+                value: '<p>Praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos molestias.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Contextuel selon les thèmes de la page (Thema A)'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · contextual'
+            field_icms_text:
+              -
+                value: '<p>Consequuntur sequi porro adipisci modi ipsam odit magni nesciunt quisquam.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Contestuale secondo i temi della pagina (Thema A)'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4a2e07f3-a4e6-4c2e-8174-257338d3d2ba
+          bundle: icms_layout_project
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: accent
+                  spacingTop: large
+                  spacingBottom: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_listing_type:
+            -
+              value: manual
+          field_icms_pretitle:
+            -
+              value: 'Listing · manual'
+          field_icms_text:
+            -
+              value: '<p>Cubilia ligula lorem sit adipiscing ornare posuere sociosqu mauris ipsum.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Manual topic selection (Thema B)'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+          field_icms_topics:
+            -
+              entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · manual'
+            field_icms_text:
+              -
+                value: '<p>Inventore beatae sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Manuelle Themenauswahl (Thema B)'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · manual'
+            field_icms_text:
+              -
+                value: '<p>Molestias cupiditate vero odio blanditiis deleniti dolores excepturi provident accusamus.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Sélection manuelle des thèmes (Thema B)'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · manual'
+            field_icms_text:
+              -
+                value: '<p>Quisquam numquam nemo voluptas fugit ratione neque dolorem eius enim.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Selezione manuale dei temi (Thema B)'
+  field_icms_teaser_image:
+    -
+      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+  field_icms_teaser_pretitle:
+    -
+      value: 'ICMS Bundle'
+  field_icms_teaser_text:
+    -
+      value: 'Reference projects and case studies.'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Projects
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66
+translations:
+  de:
+    status:
+      -
+        value: true
+    uid:
+      -
+        entity: d99e7252-4555-4701-a788-25befa086176
+    title:
+      -
+        value: Referenzen
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /referenzen
+        langcode: de
+        pathauto: 0
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: 'Referenzprojekte und Fallstudien.'
+        format: plain_text
+        summary: ''
+    field_icms_teaser_pretitle:
+      -
+        value: 'ICMS Bundle'
+    field_icms_teaser_text:
+      -
+        value: 'Referenzprojekte und Fallstudien.'
+        format: icms_restricted
+    field_icms_teaser_title:
+      -
+        value: Referenzen
+  fr:
+    status:
+      -
+        value: true
+    uid:
+      -
+        entity: d99e7252-4555-4701-a788-25befa086176
+    title:
+      -
+        value: Références
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /references
+        langcode: fr
+        pathauto: 0
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: 'Projets de référence et études de cas.'
+        format: plain_text
+        summary: ''
+    field_icms_teaser_pretitle:
+      -
+        value: 'ICMS Bundle'
+    field_icms_teaser_text:
+      -
+        value: 'Projets de référence et études de cas.'
+        format: icms_restricted
+    field_icms_teaser_title:
+      -
+        value: Références
+  it:
+    status:
+      -
+        value: true
+    uid:
+      -
+        entity: d99e7252-4555-4701-a788-25befa086176
+    title:
+      -
+        value: Referenze
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /referenze
+        langcode: it
+        pathauto: 0
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: 'Progetti di riferimento e casi di studio.'
+        format: plain_text
+        summary: ''
+    field_icms_teaser_pretitle:
+      -
+        value: 'ICMS Bundle'
+    field_icms_teaser_text:
+      -
+        value: 'Progetti di riferimento e casi di studio.'
+        format: icms_restricted
+    field_icms_teaser_title:
+      -
+        value: Referenze
