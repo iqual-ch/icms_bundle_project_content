@@ -90,9 +90,6 @@ default:
           field_icms_pretitle:
             -
               value: 'ICMS Bundle'
-          field_icms_subtitle:
-            -
-              value: 'Reference projects and case studies.'
           field_icms_text:
             -
               value: '<p>The Projects bundle presents reference projects with images and detailed content, filterable by topic.</p>'
@@ -123,9 +120,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Referenzprojekte und Fallstudien.'
             field_icms_text:
               -
                 value: '<p>Das Referenzen-Bundle präsentiert Referenzprojekte mit Bildern und ausführlichen Inhalten, filterbar nach Thema.</p>'
@@ -149,9 +143,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Projets de référence et études de cas.'
             field_icms_text:
               -
                 value: '<p>Le bundle Références présente des projets de référence avec images et contenus détaillés, filtrables par thème.</p>'
@@ -175,9 +166,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Progetti di riferimento e casi di studio.'
             field_icms_text:
               -
                 value: '<p>Il bundle Referenze presenta progetti di riferimento con immagini e contenuti dettagliati, filtrabili per tema.</p>'
